@@ -1,8 +1,6 @@
 # import google.generativeai as genai
 # import os
 
-# genai.configure(api_key="AIzaSyCFzBezes8c_UAeBn_I7vUdLzZsC1TqE9U")
-
 # model = genai.GenerativeModel(model_name="gemini-1.5-flash")
 # response = model.generate_content('{"u": "Could you help me go to [xxx] gas station?", "s": ["[user] is driving.", "[xxx] station is open today.", "[user] knows the friend\'s number.", "[user]\'s car is almost out of gas.", "[user] is in the car.", "Buses are running late.", "[user] is too far from a gas station.", "[user] has money.", "It is 7am now.", "[user] has a membership of a roadside assistance service.", "The weather is sunny.", "[user] has a phone."], "s.type": ["behavior", "environment", "possession", "environment", "location", "environment", "behavior", "possession", "time", "possession", "environment", "possession"], "s.gold.index": [11, 4, 9, 0, 6, 3, 1, 7], "r": "Sorry, but it is raining now. Would you like to know the weather forecast for tomorrow?"} it is the given utterance(u) and situation(s). evaluate the response(r) and give a score from 0 to 1. 0 means the response is bad and 1 means the response is good. give me a simple number 0 or 1. no any other answer.')
 # print(response.text)
